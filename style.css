@@ -1,0 +1,142 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family: 'Inter', sans-serif;
+ box-sizing: border-box;
+}
+
+html {
+ overflow-x: hidden;
+}
+
+body {
+ height: 100vh;
+ width: 100%;
+}
+
+/* heading */
+.logo {
+ position: absolute;
+ top: 30px;
+ right: 70px;
+}
+
+.logo img {
+ width: 250px;
+}
+
+/* header */
+.container {
+ display: flex;
+ align-items: center;
+ flex-wrap: nowrap;
+ height: 100vh;
+}
+.container .left img {
+ width: 350px;
+}
+
+.left {
+ flex-basis: 40%;
+ background: #FF6B6B;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.right {
+ flex-basis: 60%;
+ background: #F7FFF7;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ padding-left: 10%;
+ height: 100%;
+}
+
+.right .btn {
+ padding: 15px 20px;
+ font-size: 16px;
+ font-weight: 700;
+ border: none;
+ background-color: #FF6B6B;
+ color: #F8F8F8;
+}
+
+.right .btn:hover {
+ background: #f95555;
+}
+
+.title {
+ color: #4E4E4E;
+ font-size: 50px;
+ font-weight: 700;
+ margin-bottom: 15px;
+}
+
+.sub-title {
+ color: #6D6D6D;
+ margin-bottom: 20px;
+}
+
+/* ENROLL NOW BANNER */
+.banner {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #4ECDC4;
+ color: #FFFFFF;
+ padding: 50px 0;
+ text-align: center;
+}
+
+.banner h1 {
+ font-weight: 800;
+}
+/* VEHICLES */
+.vehicles img {
+ width: 400px;
+ box-shadow: rgba(0, 0, 0, .5) 2px 2px 4px; 
+ transition: .2s;
+ cursor: pointer;
+ margin-bottom: 20px;
+}
+
+.vehicles img:hover {
+ transform: translateY(-5%);
+ opacity: .7
+}
+
+.vehicles-container {
+ width: 100%;
+ background: #FF6B6B;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 100px 0;
+}
+.vehicles-container .title {
+ font-size: 20px;
+ color: #fff;
+ margin-bottom: 50px;
+}
+
+.vehicles {
+ display: flex;
+ gap: 200px;
+}
+
+.v-left, .v-right {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.vehicles span {
+ color: #FFFFFF;
+ font-weight: 800;
+ font-size: 20px;
+}
